@@ -1,7 +1,9 @@
 from Utils.ObjectTrackers.ByteTrack.tracker import ByteTracker
 from Utils.ObjectTrackers.DeepSort.tracker import DeepSortTracker
+from Utils.ObjectTrackers.Sort.tracker import SortTracker
 
-byte_track = ByteTracker()
+# byte_track = ByteTracker()
 # deep_sort = DeepSortTracker()
+sort_track = SortTracker()
 
-byte_track.process_video()
+sort_track.process_video()
